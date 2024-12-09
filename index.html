@@ -428,109 +428,155 @@ http://www.templatemo.com/tm-498-Ashva Ramesh
 	</div>
 </footer>
 
-<!-- New ImpactLink Section -->
-<section id="impactlink" class="parallax-section" style="padding:50px 0;">
+<!-- New Enhanced ImpactLink Section -->
+<section id="impactlink" class="parallax-section bg-dark" style="padding:80px 0;">
+    <div class="overlay"></div>
     <div class="container">
         <div class="row">
 
-            <!-- Left Column (Text) -->
-            <div class="col-md-6 col-sm-12">
-                <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
-                    <h1>Projects: ImpactLink</h1>
+            <!-- Main Title and Introduction -->
+            <div class="col-md-12 col-sm-12">
+                <div class="wow fadeInUp section-title" data-wow-delay="0.4s">
+                    <h1 class="color-white" style="font-size: 3em; font-weight:700;">Projects: ImpactLink</h1>
+                    <p class="color-white lead" style="font-size:1.2em;">A community-driven app connecting students with volunteer opportunities, internships, and civic engagement.</p>
                 </div>
-                <p><strong>Overview</strong></p>
-                <p>ImpactLink is a community-driven app designed to connect high school and college students to volunteer opportunities, internships, and civic engagement activities. With features like hour tracking, badges, leaderboards, and profile customization, the app promotes measurable impact through gamification and dynamic filters.</p>
-
-                <p><strong>Problem Solved:</strong> ImpactLink simplifies the search for meaningful opportunities while encouraging students to stay engaged through personalized tracking and community features.</p>
-
-                <p><strong>Unique Features:</strong></p>
-                <ul>
-                    <li>Volunteer hour tracking with visual progress graphs.</li>
-                    <li>Gamified achievements like badges and leaderboards.</li>
-                    <li>Profile customization with skills, goals, and avatars.</li>
-                    <li>Real-time opportunity filtering by category and location.</li>
-                    <li>Accessibility features such as screen reader compatibility and dark mode.</li>
-                </ul>
-
-                <p><strong>Demo and Visuals:</strong></p>
-                <ul>
-                    <li><a href="#">Video Demo (2-min)</a></li>
-                    <li><a href="#">GitHub Repository</a></li>
-                </ul>
             </div>
 
-            <!-- Right Column (Further Details) -->
-            <div class="col-md-6 col-sm-12">
-                <p><strong>Project Development</strong></p>
-                <p><strong>Journey and Challenges:</strong></p>
-                <p><strong>Development Timeline:</strong></p>
-                <ul>
-                    <li>Backend Setup: Firebase integration for user authentication and data management (Thanks to mentorship from Srikar, who guided Firebase setup and provided feedback on UI testing).</li>
-                    <li>UI Design: Iterative testing and feedback led to enhanced accessibility and streamlined navigation.</li>
-                    <li>Core Features: Designed real-time volunteer tracking, badge assignment, and category-based filtering.</li>
+        </div>
+
+        <div class="row" style="margin-top:50px;">
+
+            <!-- Left Column (Overview and Highlights) -->
+            <div class="col-md-4 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
+                <h3 class="color-yellow" style="margin-top:0;">Overview</h3>
+                <p class="color-white lead" style="line-height:1.6;">
+                    ImpactLink simplifies the search for meaningful service opportunities. By integrating hour tracking, badges, leaderboards, and profile customization, it encourages ongoing engagement and measurable social impact. Dynamic filters and accessibility features ensure a user-friendly experience for all.
+                </p>
+
+                <h3 class="color-yellow" style="margin-top:40px;">Key Benefits</h3>
+                <ul class="color-white lead" style="list-style-type:circle; margin-left:20px; line-height:1.8;">
+                    <li>Volunteer hour tracking with progress graphs</li>
+                    <li>Gamified badges & leaderboards</li>
+                    <li>Customizable profiles with skills & goals</li>
+                    <li>Real-time filtering by category & location</li>
+                    <li>Accessibility (screen readers, dark mode)</li>
                 </ul>
 
-                <p><strong>Key Milestones:</strong></p>
-                <ol>
-                    <li>Implemented Firebase for authentication and real-time data syncing.</li>
-                    <li>Developed a journal entry feature with linked categories for personalized reflections.</li>
-                    <li>Integrated a chatbot powered by ChatGPT to assist users in exploring opportunities.</li>
-                </ol>
-
-                <p><strong>Resources and Research:</strong></p>
-                <ul>
-                    <li>SwiftUI documentation for interface design.</li>
-                    <li>Firebase documentation for real-time data management.</li>
-                    <li>User feedback during beta testing for UI improvements.</li>
+                <h3 class="color-yellow" style="margin-top:40px;">Demo & Resources</h3>
+                <ul class="color-white lead" style="list-style-type:none; padding-left:0; line-height:1.8;">
+                    <li><a href="#" class="color-white" style="text-decoration:underline;">▶ Video Demo (2-min)</a></li>
+                    <li><a href="#" class="color-white" style="text-decoration:underline;">💻 GitHub Repository</a></li>
                 </ul>
 
-                <p><strong>Wireframes and Visuals:</strong></p>
-                <ul>
-                    <li><a href="#">Early Sketches</a></li>
-                    <li><a href="#">Final UI Designs</a></li>
+                <!-- Placeholder for a featured image or video thumbnail -->
+                <div class="wow fadeInUp" data-wow-delay="0.8s" style="margin-top:40px;">
+                    <div class="background-image" style="background-image:url('images/placeholder-demo.jpg'); height:200px; background-size:cover; background-position:center;"></div>
+                    <p class="color-white text-center" style="margin-top:10px; font-size:0.9em;">(Replace with Demo Screenshot/Video Preview)</p>
+                </div>
+
+            </div>
+
+            <!-- Right Column (Tabbed Details) -->
+            <div class="col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist" style="margin-bottom:30px;">
+                    <li role="presentation" class="active"><a href="#development" aria-controls="development" role="tab" data-toggle="tab">Development</a></li>
+                    <li role="presentation"><a href="#milestones" aria-controls="milestones" role="tab" data-toggle="tab">Milestones</a></li>
+                    <li role="presentation"><a href="#mentorship" aria-controls="mentorship" role="tab" data-toggle="tab">Mentorship</a></li>
+                    <li role="presentation"><a href="#resources" aria-controls="resources" role="tab" data-toggle="tab">Resources</a></li>
+                    <li role="presentation"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">Designs</a></li>
                 </ul>
 
-                <p><strong>Mentorship Contributions:</strong></p>
-                <p><strong>Srikar’s Role:</strong></p>
-                <ul>
-                    <li>Guided Firebase integration for backend development.</li>
-                    <li>Provided critical feedback on UI testing, improving accessibility and interaction flow.</li>
-                    <li>Assisted with debugging during authentication and data management implementation.</li>
-                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content" style="min-height:400px;">
 
-                <p><strong>Format Suggestions for Your Developer:</strong></p>
-                <ul>
-                    <li><strong>Layout Style:</strong>
-                        <ul>
-                            <li>Two-column layout: Left side for text, right side for visuals (screenshots, videos, or links).</li>
-                            <li>Tabs or Accordion for Details: Break down sections for easy navigation.</li>
+                    <!-- Development Tab -->
+                    <div role="tabpanel" class="tab-pane fade in active" id="development">
+                        <h3 class="color-yellow">Project Development Journey</h3>
+                        <p class="color-white lead" style="line-height:1.6;">
+                            <strong>Timeline:</strong><br>
+                            <ul style="list-style-type:circle; margin-left:20px;">
+                                <li>Backend Setup: Integrated Firebase for authentication & data management.</li>
+                                <li>UI Design: Iterative feedback improved accessibility & navigation.</li>
+                                <li>Core Features: Real-time tracking, badge assignment, category-based filtering.</li>
+                            </ul>
+                        </p>
+                        <!-- Placeholder for a development screenshot -->
+                        <div class="background-image" style="background-image:url('images/placeholder-dev.jpg'); height:180px; background-size:cover; background-position:center;"></div>
+                        <p class="color-white text-center" style="margin-top:10px; font-size:0.9em;">(Replace with Development Process Screenshot)</p>
+                    </div>
+
+                    <!-- Milestones Tab -->
+                    <div role="tabpanel" class="tab-pane fade" id="milestones">
+                        <h3 class="color-yellow">Key Milestones</h3>
+                        <ol class="color-white lead" style="line-height:1.8;">
+                            <li>Implemented Firebase for auth & real-time sync</li>
+                            <li>Added journal entries with category tags for personalized reflections</li>
+                            <li>Integrated a ChatGPT-powered chatbot for opportunity exploration</li>
+                        </ol>
+                        <!-- Placeholder for a milestone image -->
+                        <div class="background-image" style="background-image:url('images/placeholder-milestone.jpg'); height:180px; background-size:cover; background-position:center;"></div>
+                        <p class="color-white text-center" style="margin-top:10px; font-size:0.9em;">(Replace with Milestone Screenshot)</p>
+                    </div>
+
+                    <!-- Mentorship Tab -->
+                    <div role="tabpanel" class="tab-pane fade" id="mentorship">
+                        <h3 class="color-yellow">Mentorship Contributions</h3>
+                        <p class="color-white lead" style="line-height:1.6;">
+                            <strong>Srikar’s Role:</strong><br>
+                            <ul style="list-style-type:circle; margin-left:20px;">
+                                <li>Guided Firebase integration & backend setup</li>
+                                <li>Provided feedback on UI testing & accessibility</li>
+                                <li>Helped debug authentication & data issues</li>
+                            </ul>
+                        </p>
+                        <!-- Placeholder for mentor image -->
+                        <div class="background-image" style="background-image:url('images/placeholder-mentor.jpg'); height:180px; background-size:cover; background-position:center;"></div>
+                        <p class="color-white text-center" style="margin-top:10px; font-size:0.9em;">(Replace with Mentor Photo/Graphic)</p>
+                    </div>
+
+                    <!-- Resources Tab -->
+                    <div role="tabpanel" class="tab-pane fade" id="resources">
+                        <h3 class="color-yellow">Resources & Research</h3>
+                        <ul class="color-white lead" style="list-style-type:circle; margin-left:20px; line-height:1.8;">
+                            <li>SwiftUI docs for interface design</li>
+                            <li>Firebase docs for real-time data management</li>
+                            <li>User feedback from beta testing sessions</li>
                         </ul>
-                    </li>
-                    <li><strong>Visual Placement:</strong>
-                        <ul>
-                            <li>Place demo videos/screenshots prominently at the top.</li>
-                            <li>Add wireframes and progress visuals in a “Development Journey” section.</li>
+                        <!-- Placeholder for resource image -->
+                        <div class="background-image" style="background-image:url('images/placeholder-resources.jpg'); height:180px; background-size:cover; background-position:center;"></div>
+                        <p class="color-white text-center" style="margin-top:10px; font-size:0.9em;">(Replace with Resource Screenshot)</p>
+                    </div>
+
+                    <!-- Designs Tab -->
+                    <div role="tabpanel" class="tab-pane fade" id="design">
+                        <h3 class="color-yellow">Wireframes & Final Designs</h3>
+                        <ul class="color-white lead" style="list-style-type:circle; margin-left:20px; line-height:1.8;">
+                            <li><a href="#" class="color-white" style="text-decoration:underline;">Early Sketches</a></li>
+                            <li><a href="#" class="color-white" style="text-decoration:underline;">Final UI Designs</a></li>
                         </ul>
-                    </li>
-                    <li><strong>Consistency:</strong>
-                        <ul>
-                            <li>Use concise bullet points for readability.</li>
-                            <li>Ensure headings are in a larger font to create visual hierarchy.</li>
-                        </ul>
-                    </li>
-                    <li><strong>Interactive Links:</strong>
-                        <ul>
-                            <li>Add working links to GitHub, demo videos, and other resources.</li>
-                            <li>Include hover effects on links/buttons for better user engagement.</li>
-                        </ul>
-                    </li>
-                </ul>
+                        <!-- Placeholder for design image -->
+                        <div class="background-image" style="background-image:url('images/placeholder-design.jpg'); height:180px; background-size:cover; background-position:center;"></div>
+                        <p class="color-white text-center" style="margin-top:10px; font-size:0.9em;">(Replace with Design Mockup/Sketch)</p>
+                    </div>
+
+                </div>
+
+                <!-- Additional Formatting Suggestions -->
+                <div class="wow fadeInUp" data-wow-delay="0.8s" style="margin-top:40px;">
+                    <h3 class="color-yellow">Format Suggestions for Your Developer</h3>
+                    <ul class="color-white lead" style="list-style-type:circle; margin-left:20px; line-height:1.8;">
+                        <li><strong>Layout:</strong> Utilize tabs or accordions to keep content organized and accessible.</li>
+                        <li><strong>Visual Placement:</strong> Highlight demo videos & screenshots at the top; include wireframes in a “Development Journey” section.</li>
+                        <li><strong>Consistency:</strong> Maintain concise bullet points and clear headings to guide users.</li>
+                        <li><strong>Interactive Links:</strong> Add hover effects and ensure all resource links are active and lead to relevant content.</li>
+                    </ul>
+                </div>
             </div>
 
         </div>
     </div>
 </section>
-
 
 <!-- SCRIPTS -->
 
